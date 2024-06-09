@@ -7,5 +7,5 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-use App\Http\Controllers\ProdutoController;
+use app\Http\Controllers\ProdutoController;
 Route::resource('produto',ProdutoController::class);
