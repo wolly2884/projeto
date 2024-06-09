@@ -1,7 +1,19 @@
 <?php
 
-// Em database/seeders/DatabaseSeeder.php
-public function run()
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class DatabaseSeeder extends Seeder
 {
-    $this->call(ProdutosTableSeeder::class);
+    /**
+     * Seed the application's database.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $this->call(ProdutosTableSeeder::class);
+    }
 }
+
