@@ -10,7 +10,7 @@ class ProdutoController extends Controller
 {
     public function index()
     {
-        //$produtos = Produto::all();
+        $produtos = Produto::all();
         // return ProdutoResource::collection($produtos);
        // return Produto::all();
                 return response()->json($produtos);
