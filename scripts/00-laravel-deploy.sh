@@ -16,4 +16,7 @@ php artisan route:cache
 echo "Running migrations..."
 php artisan migrate --force
 
+echo "Running migrations..."
+php artisan migrate --seed --force
+
 echo "done deploying"
