@@ -18,6 +18,7 @@ class ProdutosTableSeeder extends Seeder
     {
         DB::table('produtos')->insert([
             [
+                'cd_produto' => 'Produto 1',
                 'ds_produto' => 'Produto 1',
                 'dt_compra' => '2024-01-01',
                 'qt_quantidade' => 50,
@@ -28,6 +29,7 @@ class ProdutosTableSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
+                'cd_produto' => 'Produto 2',
                 'ds_produto' => 'Produto 2',
                 'dt_compra' => '2024-02-01',
                 'qt_quantidade' => 30,
@@ -38,6 +40,7 @@ class ProdutosTableSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
+                'cd_produto' => 'Produto 3',
                 'ds_produto' => 'Produto 3',
                 'dt_compra' => '2024-03-01',
                 'qt_quantidade' => 100,
