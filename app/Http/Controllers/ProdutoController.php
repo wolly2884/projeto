@@ -12,7 +12,8 @@ class ProdutoController extends Controller
     {
         //$produtos = Produto::all();
         // return ProdutoResource::collection($produtos);
-        return Produto::all();
+       // return Produto::all();
+                return response()->json($produtos);
     }
 
     public function store(Request $request)
