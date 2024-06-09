@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers;
 
-use App\Models\Produto;
+use app\Models\Produto;
 use Illuminate\Http\Request;
-use App\Http\Resources\ProdutoResource;
+use app\Http\Resources\ProdutoResource;
 
 class ProdutoController extends Controller
 {
