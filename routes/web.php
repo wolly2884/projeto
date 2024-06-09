@@ -3,9 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProdutoController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ProdutoController::class, 'index']);
 //Set Rotas parao CRUD de Computadors
 Route::resource('/produtos', App\Http\Controllers\ProdutoController::class);
 Route::resource('/produto', App\Http\Controllers\ProdutoController::class);
