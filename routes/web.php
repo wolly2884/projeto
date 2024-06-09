@@ -8,6 +8,6 @@ Route::get('/', [ProdutoController::class, 'index']);
 Route::resource('/produtos', app\Http\Controllers\ProdutoController::class);
 Route::resource('/produto', app\Http\Controllers\ProdutoController::class);
 
-Route::get('/produtos', [ProdutoController::class, 'index']);
-Route::get('/produtos/{id}', [ProdutoController::class, 'show']);
+//Route::get('/produtos', [ProdutoController::class, 'index']);
+//Route::get('/produtos/{id}', [ProdutoController::class, 'show']);
 
